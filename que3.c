@@ -3,11 +3,11 @@
 int main() {
     char grade;
 
-    // Input: Grade of the student
+    
     printf("Enter your grade (A, B, C, D, or F): ");
     scanf(" %c", &grade);
 
-    // Check eligibility based on the grade
+    
     if (grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D') {
         printf("Congratulations! You are eligible for the next level.\n");
     } else if (grade == 'F') {
